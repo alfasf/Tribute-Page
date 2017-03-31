@@ -1,0 +1,148 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+
+body{
+
+  background: rgb(77, 71, 73); /* Old Browsers */
+  background: -webkit-radial-gradient(top right,rgb(77, 71, 73),rgb(4, 16, 8)); /*Safari 5.1-6*/
+  background: -o-radial-gradient(top right,rgb(77, 71, 73),rgb(4, 16, 8)); /*Opera 11.1-12*/
+  background: -moz-radial-gradient(top right,rgb(77, 71, 73),rgb(4, 16, 8)); /*Fx 3.6-15*/
+  background: radial-gradient(top right, rgb(77, 71, 73), rgb(4, 16, 8)); /*Standard*/
+}
+
+h1.titleheading{
+  font-size: 2.8rem;
+  font-family: Lobster;
+  font-weight: 700;
+  color: #FFF;
+  margin-top: 10px;
+}
+
+p.firstletter::first-letter{
+  font-size: 175%;
+  font-family: Papyrus,fantasy;
+  color: #e2d1e2;
+  padding: 3px;
+}
+
+.bodyparts{
+  padding: 0 10px;
+}
+
+
+blockquote{
+  color: #f2f2f2;
+  font-size: 1.3rem;
+  font-family: Rancho;
+  font-style: oblique;
+  text-align: center;
+  padding: 0px;
+}
+
+blockquote span#quote-author{
+  font-size: 0.95rem;
+  margin-left: 2px;
+}
+
+.portrait-block{
+  margin: 10px;
+}
+
+.roosevelt-portrait{
+  display: block;
+  max-width: 35%;
+  overflow: hidden;
+  margin: 0 auto;
+  border-radius: 2.5rem;
+}
+
+#minibio{ 
+  color: #fff;
+  font-weight: 100;
+  font-size: 0.75rem;
+  text-align: center;
+  margin-top: 2px;
+}
+
+.bodyparagraph{
+  color: #fff;
+  font-size: 1.05rem;
+  padding: 0 20px;
+  letter-spacing: 0.07rem;
+  word-spacing: 0.2rem;
+}
+
+h3.h3{
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: #fff;
+  font-size: 1.35rem
+}
+
+li.listings{
+  color: #fff;
+  font-size: 1.15rem;
+}
+
+.bodyparts ol p.bodyparagraph, .bodyparts ul p.bodyparagraph{
+  margin-top: 10px;
+  padding: 0;
+}
+
+.bodyparts .division-with-img .support-pic{
+  max-width: 20%;
+  margin-left: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#first-lady{
+  display: block;
+  max-width: 80%;
+  margin: 5px auto;
+  border-radius: 2%;
+}
+
+#civilrightspic{
+  display: block;
+  max-width: 50%;
+  margin-top: 5px;
+  margin-right: 12px;
+  padding-top: 12px;
+  }
+
+.bodyparts ul.linkbullets{
+  list-style: square;
+  margin-top: 10px;
+}
+
+.bodyparts ul li{
+  line-height: 2rem;
+}
+
+.bodyparts ul li a{
+  color: gray;
+  font-size: 0.87rem
+}
+
+footer{
+  background-color: rgba(128, 128, 128, 0.05);
+  margin-bottom: 0;
+}
+
+footer p{
+  font-size: 0.75rem;
+  text-shadow: 1px 1px 20px black;
+  color: #d0d0d0;
+  text-align: right;
+  padding: 10px 3px 10px 0;
+}
+
