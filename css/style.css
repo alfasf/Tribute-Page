@@ -90,6 +90,10 @@ h3.h3{
   cursor: pointer;
 }
 
+.partcontent{
+  display: none;
+}
+
 li.listings{
   color: #fff;
   font-size: 1.15rem;

@@ -1,6 +1,6 @@
 $(document).ready(function(){
-  $(".bodyparts").click(function(){
-    $(".partcontent").toggle();
+  $("h3").click(function(){
+    $(this).next().toggle();
   })
 });
 
