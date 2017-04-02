@@ -82,6 +82,7 @@ blockquote span#quote-author{
 }
 
 h3.h3{
+  display: inline-flex;
   text-transform: uppercase;
   text-decoration: underline;
   color: #fff;
