@@ -19,6 +19,10 @@ body{
   background: radial-gradient(top right, rgb(77, 71, 73), rgb(4, 16, 8)); /*Standard*/
 }
 
+.container-fluid{
+  max-width: 960px;
+}
+
 h1.titleheading{
   font-size: 2.8rem;
   font-family: Lobster;
@@ -48,9 +52,23 @@ blockquote{
   padding: 0px;
 }
 
+@media screen and (max-width: 680px){
+  blockquote{
+  font-size: 0.8rem;
+  }
+
+}
+
 blockquote span#quote-author{
   font-size: 0.95rem;
   margin-left: 2px;
+}
+
+@media screen and (max-width: 680px){
+  blockquote span#quote-author{
+  font-size: 0.7rem; 
+  }
+
 }
 
 .portrait-block{
@@ -73,6 +91,13 @@ blockquote span#quote-author{
   margin-top: 2px;
 }
 
+@media screen and (max-width: 680px){
+  #minibio{
+  display: none; 
+  }
+
+}
+
 .bodyparagraph{
   color: #fff;
   font-size: 1.05rem;
@@ -81,13 +106,30 @@ blockquote span#quote-author{
   word-spacing: 0.2rem;
 }
 
+@media screen and (max-width: 680px){
+  .bodyparagraph{
+  font-size: 1.50rem;
+  padding: 0 25px; 
+  }
+
+}
+
 h3.h3{
-  display: inline-flex;
+  text-align: left;
   text-transform: uppercase;
   text-decoration: underline;
   color: #fff;
   font-size: 1.35rem;
   cursor: pointer;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 680px){
+  h3.h3{
+  font-size: 1.5rem;
+  text-align: center; 
+  }
+
 }
 
 .partcontent{
@@ -99,6 +141,13 @@ li.listings{
   font-size: 1.15rem;
 }
 
+@media screen and (max-width: 680px){
+  li.listings{
+  font-size: 1.55rem;
+  padding: 0 25px; 
+  }
+}
+
 .bodyparts ol p.bodyparagraph, .bodyparts ul p.bodyparagraph{
   margin-top: 10px;
   padding: 0;
@@ -108,6 +157,13 @@ li.listings{
   max-width: 20%;
   margin-left: 8px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (max-width: 680px){
+  .bodyparts .division-with-img .support-pic{
+    display: none; 
+  }
+
 }
 
 #first-lady{
@@ -125,6 +181,16 @@ li.listings{
   padding-top: 12px;
   }
 
+  @media screen and (max-width: 680px){
+  #civilrightspic{
+    display: block;
+    float: none !important;
+    max-width: 80%;
+    margin: 0 auto; 
+  }
+
+}
+
 .bodyparts ul.linkbullets{
   list-style: square;
   margin-top: 10px;
@@ -139,6 +205,13 @@ li.listings{
   font-size: 0.87rem
 }
 
+@media screen and (max-width: 680px){
+  .bodyparts ul li a{
+  font-size: 0.95rem; 
+  color: #aea9a9;
+  }
+}
+
 footer{
   background-color: rgba(128, 128, 128, 0.01);
   margin-bottom: 0;
@@ -151,4 +224,6 @@ footer p{
   text-align: right;
   padding: 10px 3px 10px 0;
 }
+
+
 
