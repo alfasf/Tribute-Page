@@ -52,7 +52,7 @@ blockquote{
   padding: 0px;
 }
 
-@media screen and (max-width: 680px){
+@media screen and (max-width: 768px){
   blockquote{
   font-size: 0.8rem;
   }
@@ -64,7 +64,7 @@ blockquote span#quote-author{
   margin-left: 2px;
 }
 
-@media screen and (max-width: 680px){
+@media screen and (max-width: 768px){
   blockquote span#quote-author{
   font-size: 0.7rem; 
   }
@@ -91,7 +91,7 @@ blockquote span#quote-author{
   margin-top: 2px;
 }
 
-@media screen and (max-width: 680px){
+@media screen and (max-width: 768px){
   #minibio{
   display: none; 
   }
@@ -106,7 +106,7 @@ blockquote span#quote-author{
   word-spacing: 0.2rem;
 }
 
-@media screen and (max-width: 680px){
+@media screen and (max-width: 768px){
   .bodyparagraph{
   font-size: 1.50rem;
   padding: 0 25px; 
@@ -124,7 +124,7 @@ h3.h3{
   margin-bottom: 10px;
 }
 
-@media screen and (max-width: 680px){
+@media screen and (max-width: 768px){
   h3.h3{
   font-size: 1.5rem;
   text-align: center; 
@@ -141,7 +141,7 @@ li.listings{
   font-size: 1.15rem;
 }
 
-@media screen and (max-width: 680px){
+@media screen and (max-width: 768px){
   li.listings{
   font-size: 1.55rem;
   padding: 0 25px; 
@@ -159,7 +159,7 @@ li.listings{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-@media screen and (max-width: 680px){
+@media screen and (max-width: 768px){
   .bodyparts .division-with-img .support-pic{
     display: none; 
   }
@@ -181,7 +181,7 @@ li.listings{
   padding-top: 12px;
   }
 
-  @media screen and (max-width: 680px){
+  @media screen and (max-width: 768px){
   #civilrightspic{
     display: block;
     float: none !important;
@@ -205,7 +205,7 @@ li.listings{
   font-size: 0.87rem
 }
 
-@media screen and (max-width: 680px){
+@media screen and (max-width: 768px){
   .bodyparts ul li a{
   font-size: 0.95rem; 
   color: #aea9a9;
