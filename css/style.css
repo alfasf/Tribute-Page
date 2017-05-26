@@ -92,6 +92,10 @@ blockquote span#quote-author{
 }
 
 @media screen and (max-width: 768px){
+  .roosevelt-portrait{
+    max-width: 100%;
+  }
+
   #minibio{
   display: none; 
   }
