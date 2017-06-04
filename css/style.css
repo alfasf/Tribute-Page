@@ -151,15 +151,17 @@ li.listings{
   padding: 0 25px; 
   }
   
-  .bodyparts ul p.bodyparagraph{
-    margin-left: -40px;
-  }
-
 }
 
 .bodyparts ol p.bodyparagraph, .bodyparts ul p.bodyparagraph{
   margin-top: 10px;
   padding: 0;
+}
+
+@media screen and (max-width: 768px){
+  .bodyparts ul p.bodyparagraph{
+    margin-left: -40px;
+  }
 }
 
 .bodyparts .division-with-img .support-pic{
