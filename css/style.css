@@ -235,6 +235,7 @@ table{
 
 .table thead th{
   font-size: 1.3rem;
+  border-top: 0;
 }
 
 .table thead th:first-child{
