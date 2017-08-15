@@ -231,6 +231,7 @@ li.listings{
 
 table{
   margin: 5px 10px;
+  border-radius: 11px;
 }
 
 .table thead th{
