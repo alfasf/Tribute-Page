@@ -231,6 +231,8 @@ li.listings{
 
 table{
   margin: 5px 10px;
+  -webkit-border-radius: 11px;
+  -ms-border-radius: 11px;
   border-radius: 11px;
 }
 
