@@ -32,9 +32,9 @@ h1.titleheading{
 }
 
 p.firstletter::first-letter{
-  font-size: 175%;
+  font-size: 260%;
   font-family: Papyrus,fantasy;
-  color: #e2d1e2;
+  color: rgba(239, 145, 239, 0.69);
   padding: 3px;
 }
 
