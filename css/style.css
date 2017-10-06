@@ -234,6 +234,7 @@ table{
   -webkit-border-radius: 11px;
   -ms-border-radius: 11px;
   border-radius: 11px;
+  box-shadow: 5px -7px 20px rgba(128, 128, 128, 0.5);
 }
 
 .table thead th{
