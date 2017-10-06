@@ -39,6 +39,7 @@ p.firstletter::first-letter{
 }
 
 .bodyparts{
+  margin-bottom: 5px;
   padding: 0 10px;
 }
 
@@ -230,6 +231,7 @@ li.listings{
 /*Table*/
 
 table{
+  width: 0;
   margin: 5px 10px;
   -webkit-border-radius: 11px;
   -ms-border-radius: 11px;
