@@ -13,10 +13,10 @@ html {
 body{
 
   background: rgb(77, 71, 73); /* Old Browsers */
-  background: -webkit-radial-gradient(top right,rgb(77, 71, 73),rgb(4, 16, 8)); /*Safari 5.1-6*/
-  background: -o-radial-gradient(top right,rgb(77, 71, 73),rgb(4, 16, 8)); /*Opera 11.1-12*/
-  background: -moz-radial-gradient(top right,rgb(77, 71, 73),rgb(4, 16, 8)); /*Fx 3.6-15*/
-  background: radial-gradient(top right, rgb(77, 71, 73), rgb(4, 16, 8)); /*Standard*/
+  background: -webkit-radial-gradient(top right,rgba(228, 194, 194, 0.75),rgb(4, 16, 8)); /*Safari 5.1-6*/
+  background: -o-radial-gradient(top right, rgba(228, 194, 194, 0.75),rgb(4, 16, 8)); /*Opera 11.1-12*/
+  background: -moz-radial-gradient(top right, rgba(228, 194, 194, 0.75),rgb(4, 16, 8)); /*Fx 3.6-15*/
+  background: radial-gradient(top right, rgba(228, 194, 194, 0.75), rgb(4, 16, 8)); /*Standard*/
 }
 
 .container-fluid{
@@ -243,7 +243,7 @@ table{
   -webkit-border-radius: 11px;
   -ms-border-radius: 11px;
   border-radius: 11px;
-  box-shadow: 5px -7px 20px rgba(128, 128, 128, 0.5);
+  box-shadow: 5px -7px 20px rgb(74, 75, 76);
 }
 
 .table thead th{
