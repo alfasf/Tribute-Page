@@ -41,6 +41,8 @@ p.firstletter::first-letter{
 .bodyparts{
   margin-bottom: 5px;
   padding: 0 10px;
+  border: 1px solid beige;
+  background: rgba(189, 185, 185, 0.58);
 }
 
 
@@ -126,6 +128,7 @@ h3.h3{
   color: #fff;
   font-size: 1.35rem;
   cursor: pointer;
+  margin-top: 10px;
   margin-bottom: 20px;
 }
 
@@ -144,6 +147,10 @@ h3.h3{
 li.listings{
   color: #fff;
   font-size: 1.15rem;
+}
+
+.partcontent ul a{
+	color: #143a58;
 }
 
 @media screen and (max-width: 768px){
@@ -231,7 +238,7 @@ li.listings{
 /*Table*/
 
 table{
-  width: 0;
+  width: 0 !important;
   margin: 5px 10px;
   -webkit-border-radius: 11px;
   -ms-border-radius: 11px;
