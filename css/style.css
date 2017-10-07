@@ -13,10 +13,10 @@ html {
 body{
 
   background: rgb(77, 71, 73); /* Old Browsers */
-  background: -webkit-radial-gradient(top right,rgba(228, 194, 194, 0.75),rgb(4, 16, 8)); /*Safari 5.1-6*/
-  background: -o-radial-gradient(top right, rgba(228, 194, 194, 0.75),rgb(4, 16, 8)); /*Opera 11.1-12*/
-  background: -moz-radial-gradient(top right, rgba(228, 194, 194, 0.75),rgb(4, 16, 8)); /*Fx 3.6-15*/
-  background: radial-gradient(top right, rgba(228, 194, 194, 0.75), rgb(4, 16, 8)); /*Standard*/
+  background: -webkit-radial-gradient(top right,rgba(76, 65, 65, 0.75),rgb(4, 16, 8)); /*Safari 5.1-6*/
+  background: -o-radial-gradient(top right, rgba(76, 65, 65, 0.75),rgb(4, 16, 8)); /*Opera 11.1-12*/
+  background: -moz-radial-gradient(top right, rgba(76, 65, 65, 0.75),rgb(4, 16, 8)); /*Fx 3.6-15*/
+  background: radial-gradient(top right, rgba(76, 65, 65, 0.75), rgb(4, 16, 8)); /*Standard*/
 }
 
 .container-fluid{
