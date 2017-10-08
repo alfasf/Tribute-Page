@@ -124,7 +124,8 @@ blockquote span#quote-author{
 h3.h3{
   text-align: left;
   text-transform: uppercase;
-  text-decoration: underline;
+  font-weight: 700;
+  letter-spacing: 2.5px;
   color: #fff;
   font-size: 1.35rem;
   cursor: pointer;
