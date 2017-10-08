@@ -150,7 +150,7 @@ li.listings{
 }
 
 .partcontent ul a{
-	color: #143a58;
+	color: rgba(208, 212, 197, 0.9);
 }
 
 @media screen and (max-width: 768px){
@@ -225,7 +225,8 @@ li.listings{
 }
 
 #timelink{
-  margin-left: 9px; 
+  margin-left: 9px;
+  color: rgba(208, 212, 197, 0.9);
 }
 
 @media screen and (max-width: 768px){
