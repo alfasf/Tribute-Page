@@ -39,10 +39,14 @@ p.firstletter::first-letter{
 }
 
 .bodyparts{
-  margin-bottom: 5px;
+  margin-bottom: 12px;
   padding: 0 10px;
   border: 1px solid beige;
   background: rgba(189, 185, 185, 0.58);
+}
+
+.bodyparts:hover{
+  box-shadow: 2px -2px 0px #b59390;
 }
 
 
