@@ -250,7 +250,7 @@ table{
   -webkit-border-radius: 11px;
   -ms-border-radius: 11px;
   border-radius: 11px;
-  box-shadow: 5px -7px 20px rgb(74, 75, 76, 0.67);
+  box-shadow: 5px -7px 20px rgba(74, 75, 76, 0.67);
 }
 
 .table thead th{
