@@ -73,7 +73,7 @@ blockquote span#quote-author{
 
 @media screen and (max-width: 768px){
   blockquote span#quote-author{
-  font-size: 0.9rem; 
+  font-size: 0.9rem;
   }
 
 }
@@ -90,7 +90,7 @@ blockquote span#quote-author{
   border-radius: 2.5rem;
 }
 
-#minibio{ 
+#minibio{
   color: #fff;
   font-weight: 100;
   font-size: 0.8rem;
@@ -104,7 +104,7 @@ blockquote span#quote-author{
   }
 
   #minibio{
-  display: none; 
+  display: none;
   }
 
 }
@@ -120,7 +120,7 @@ blockquote span#quote-author{
 @media screen and (max-width: 768px){
   .bodyparagraph{
   font-size: 1.50rem;
-  padding: 0 25px; 
+  padding: 0 25px;
   }
 
 }
@@ -129,7 +129,7 @@ h3.h3{
   text-align: left;
   text-transform: uppercase;
   text-shadow: 2px -3px 5px rgba(109, 41, 113, 0.83);
-  font-weight: 700;
+  font-weight: 900;
   letter-spacing: 2.5px;
   color: #fff;
   font-size: 1.35rem;
@@ -141,7 +141,7 @@ h3.h3{
 @media screen and (max-width: 768px){
   h3.h3{
   font-size: 1.5rem;
-  text-align: center; 
+  text-align: center;
   }
 
 }
@@ -162,9 +162,9 @@ li.listings{
 @media screen and (max-width: 768px){
   li.listings{
   font-size: 1.55rem;
-  padding: 0 25px; 
+  padding: 0 25px;
   }
-  
+
 }
 
 .bodyparts ol p.bodyparagraph, .bodyparts ul p.bodyparagraph{
@@ -187,7 +187,7 @@ li.listings{
 
 @media screen and (max-width: 768px){
   .bodyparts .division-with-img .support-pic{
-    display: none; 
+    display: none;
   }
 
 }
@@ -212,7 +212,7 @@ li.listings{
     display: block;
     float: none !important;
     max-width: 80%;
-    margin: 0 auto; 
+    margin: 0 auto;
   }
 
 }
@@ -238,7 +238,7 @@ li.listings{
 
 @media screen and (max-width: 768px){
   .bodyparts ul li a{
-  font-size: 0.95rem; 
+  font-size: 0.95rem;
   color: #aea9a9;
   }
 }
@@ -281,6 +281,3 @@ footer p{
   text-align: right;
   padding: 10px 3px 10px 0;
 }
-
-
-
