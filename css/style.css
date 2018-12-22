@@ -267,8 +267,24 @@ table{
   .table thead th, .table tbody td{
     font-size: 0.98rem;
   }
+  
+  #mobile-table tbody td.first-row-line{
+      border-top: 0;
+    }
+  }
+
+  #desktop-table{
+    display: none;
+  }
 
 }
+
+@media screen and (min-width: 768px){
+  #mobile-table{
+    display: none;
+  }
+}
+
 footer{
   background-color: rgba(128, 128, 128, 0.01);
   margin-bottom: 0;
