@@ -266,11 +266,16 @@ table{
 @media screen and (max-width: 768px){
   .table thead th, .table tbody td{
     font-size: 0.98rem;
+    text-align: left;
   }
   
   #mobile-table tbody td.first-row-line{
       border-top: 0;
     }
+  
+  #mobile-table tbody td span.mini-table-header{
+    margin-left: 0.5rem;
+  }
   }
 
   #desktop-table{
