@@ -276,7 +276,7 @@ table{
   #mobile-table tbody td span.mini-table-header{
     margin-left: 0.2 rem;
   }
-  }
+  
 
   #desktop-table{
     display: none;
@@ -284,7 +284,7 @@ table{
 
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 960px){
   #mobile-table{
     display: none;
   }
